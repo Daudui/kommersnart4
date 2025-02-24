@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kommersnart.no</title>
+    <link rel="stylesheet" href="kommersnartofficial.css">
+</head>
+<body>
+
+
+
+
+   
+
+
+
+
+
+
+
+    <header>
+        <h1>Velkommen til Kommersnart.no</h1>
+        <p>Her finner du de nyeste filmene som kommer ut!</p>
+       <h3>Du vil få dine funn i din E-post </h3>
+           
+           
+        <script src="kommersnartofficial.js"></script>
+        
+   
+   
+   
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div id="filmContainer">
+        <div class="film" onclick="visBeskrivelse('Flight Risk', 'En spennende actionthriller om en farlig flukt.')">
+            <img src="flight-risk.jpg" alt="Flight Risk">
+            <p>Flight Risk</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Paddington i Peru', 'Paddington drar til Peru for nye eventyr.')">
+            <img src="paddington.jpg" alt="Paddington i Peru">
+            <p>Paddington i Peru</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Dog Man', 'En animert film basert på den populære barneboken.')">
+            <img src="dog-man.jpg" alt="Dog Man">
+            <p>Dog Man</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('The Brutalist', 'En kunstnerisk film om brutalistisk arkitektur og livsvalg.')">
+            <img src="brutalist.jpg" alt="The Brutalist">
+            <p>The Brutalist</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Wolf Man', 'En ny versjon av den klassiske varulv-filmen.')">
+            <img src="wolfman.jpg" alt="Wolf Man">
+            <p>Wolf Man</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Nosferatu', 'En skrekkfilm basert på den klassiske vampyrhistorien.')">
+            <img src="nosferatu.jpg" alt="Nosferatu">
+            <p>Nosferatu</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Werewolves', 'En intens thriller om en ulveaktig trussel.')">
+            <img src="werewolves.jpg" alt="Werewolves">
+            <p>Werewolves</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Bridget Jones: Mad About the Boy', 'Bridget Jones er tilbake med nye utfordringer.')">
+            <img src="bridget-jones.jpg" alt="Bridget Jones: Mad About the Boy">
+            <p>Bridget Jones: Mad About the Boy</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Straume', 'En norsk dramafilm med intense følelser.')">
+            <img src="straume.jpg" alt="Straume">
+            <p>Straume</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Absolution', 'En mørk thriller om skyld og tilgivelse.')">
+            <img src="absolution.jpg" alt="Absolution">
+            <p>Absolution</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Memoir of a Snail', 'En hjertevarm animasjonsfilm om en snegle.')">
+            <img src="memoir-snail.jpg" alt="Memoir of a Snail">
+            <p>Memoir of a Snail</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Anora', 'En gripende drama med sterke karakterer.')">
+            <img src="anora.jpg" alt="Anora">
+            <p>Anora</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Dirty Angels', 'En actionfylt film med intense kampscener.')">
+            <img src="dirty-angels.jpg" alt="Dirty Angels">
+            <p>Dirty Angels</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('哪吒之魔童闹海', 'En kinesisk animert fantasyfilm.')">
+            <img src="nezha.jpg" alt="哪吒之魔童闹海">
+            <p>哪吒之魔童闹海</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Wicked', 'Musikalfilm basert på Broadway-suksessen.')">
+            <img src="wicked.jpg" alt="Wicked">
+            <p>Wicked</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Nickel Boys', 'Basert på den prisbelønte romanen om en mørk fortid.')">
+            <img src="nickel-boys.jpg" alt="Nickel Boys">
+            <p>Nickel Boys</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('The Monkey', 'En skrekkfilm om en mystisk apekatt.')">
+            <img src="the-monkey.jpg" alt="The Monkey">
+            <p>The Monkey</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Heretic', 'En uhyggelig film om en religiøs sekt.')">
+            <img src="heretic.jpg" alt="Heretic">
+            <p>Heretic</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Conclave', 'En politisk thriller om Vatikanet.')">
+            <img src="conclave.jpg" alt="Conclave">
+            <p>Conclave</p>
+        </div>
+    
+        <div class="film" onclick="visBeskrivelse('Interstellar', 'En episk sci-fi-film om romfart og tid.')">
+            <img src="interstellar.jpg" alt="Interstellar">
+            <p>Interstellar</p>
+        </div>
+    </div>
+    
+    <!-- Beskrivelse-visning -->
+    <div id="beskrivelseContainer" style="display: none;">
+        <h2 id="filmTittel"></h2>
+        <p id="filmBeskrivelse"></p>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+   
+
+
+    <button onclick="åpneNyhetsbrev()" class="nyhetsbrev-button">Meld deg på nyhetsbrev</button>
+
+<div id="nyhetsbrev-popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="lukkNyhetsbrev()">&times;</span>
+        <h2>Meld deg på vårt nyhetsbrev</h2>
+        <p>Få de nyeste filmene rett i innboksen din!
+            Vil du lagre dine funn? Gjerne registrer deg!
+        </p>
+        <input type="email" id="nyhetsbrev-email" placeholder="Skriv inn din e-post">
+        <button onclick="sendNyhetsbrev()">Meld deg på</button>
+    </div>
+</div>
+
+
+
+
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.1CvqllN1FrkPRyUjWsXI-AHaEK&pid=Api" alt="Stanley Quencher Termokopp">
+        <h2>Stanley Quencher Termokopp</h2>
+        <p>Holder drikken varm eller kald i flere timer. Perfekt for reiser og hverdagsbruk.</p>
+        <a href="https://www.amazon.com/Quencher-FlowState-Stainless-Insulated-Smoothie/dp/B0D2Z2R3KX/ref=sr_1_1_sspa?adgrpid=150238585890&dib=eyJ2IjoiMSJ9.OUji9MmQR6lGxM4iT0HNj6B6hvqMqucX10lX-6r3XnEZJq1w336zNW1YjWeAQCpHWLo-bPtpjEFKETkEy8kSX_BIA0LDKo1HNjFH7HrbO8Us6PqfKH1FXHQnzijSir-uGBFUIcu9Pu7J6vNKSNKJp_kDvfWqWWdRRQ3rgIX5FG7CJDgM-Ke4glYHqmMM-17TaUbLOR6kCj7-kzQX_9q-BQal42KTA6tOfugqqGf2Ljh787u24xuvB-XnuvIFDh9wBIomE3k3xI6bjUwqEneTalWFsfpMbb0OyMntCGIhz_0.ua9piHpFZIlu6jlb_R-Zx9xNWMNwAx4SUMYYuXpp2uU&dib_tag=se&hvadid=690292644429&hvdev=c&hvlocphy=1010826&hvnetw=g&hvqmt=b&hvrand=1397299713479548235&hvtargid=kwd-3553965683&hydadcr=6917_13410103&keywords=stanley+water+bottle&qid=1738507298&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="buy-button">Kjøp nå</a>
+        
+   
+   
+   
+   
+    </div>
+    
+    
+
+    
+    <section>
+        <h2>Nye filmer:</h2>
+        <ul id="filmer">
+            
+        </ul>
+    </section>
+<p> Laget av Daud, Odin, Erion og Amir</p>
+    <footer>
+        <p>&copy; 2025 Kommersnart.no</p>
+    </footer>
+
+    <script src="kommersnartofficial.js"></script>
+</body>
+</html>

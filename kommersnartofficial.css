@@ -1,0 +1,306 @@
+
+/* Grunnleggende styling for nettsiden */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #000000;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.film-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.film-item img {
+    width: 200px; /* Sett en fast bredde for bildene */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Jevn overgang ved hover */
+}
+
+.film-item img:hover {
+    transform: scale(1.2); /* Gjør bildet 20% større når du holder musen over */
+}
+
+.film-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.film-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.film-item img {
+    width: 200px; /* Sett en fast bredde for bildene */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Jevn overgang ved hover */
+}
+
+.film-item img:hover {
+    transform: scale(1.2); /* Gjør bildet 20% større når du holder musen over */
+}
+
+.film-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.product {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    color: yellow;
+    font-size: 20px;
+}
+
+.product p {
+    color: white;
+    font-size: 16px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login-button, #register-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#register-button {
+    left: 100px; /* Flytter "Registrer deg" litt til høyre */
+    background-color: #008CBA;
+}
+
+#login-button:hover {
+    background-color: #e68a00;
+}
+
+#register-button:hover {
+    background-color: #0077A3;
+}
+
+#login-container, #register-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+div {
+    text-align: left;
+    button {
+        background: #313131;
+        color: rgb(248, 245, 245);
+        padding: 10px;
+        border: none;
+        width: 14%;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background: #e6a117;
+    }
+    
+}
+
+
+
+
+
+
+
+/* Stil for knappen */
+.nyhetsbrev-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stil for popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Innhold i popup */
+.popup-content {
+    background: rgb(72, 69, 69);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Input-felt */
+.popup-content input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+/* Lukkeknapp */
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.film {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.film img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.film img:hover {
+    transform: scale(1.1);
+}
+
+#beskrivelseContainer {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
